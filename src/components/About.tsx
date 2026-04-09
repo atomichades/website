@@ -97,12 +97,32 @@ export default function About() {
             {/* Doctoral Research */}
             <div className="about__subsection">
               <p className="about__subsection-title">Doctoral Research</p>
+              <p className="about__text" style={{ marginBottom: '4px' }}>
+                PhD candidate at the <strong>University of York</strong>, School for Business &amp; Society.
+              </p>
               <p className="about__text" style={{ marginBottom: '12px' }}>
-                Current PhD research examines the impact of artificial intelligence on lethality-focused decision-making processes — specifically how AI systems are integrated into operational contexts where decisions carry irreversible consequences.
+                Research examines the impact of artificial intelligence on lethality-focused decision-making processes — specifically how AI systems are integrated into operational contexts where decisions carry irreversible consequences. The work seeks to develop frameworks for responsible AI integration where conventional assurance models are insufficient, drawing directly on experience designing and deploying AI systems within live defence programmes.
               </p>
               <p className="about__text" style={{ marginBottom: '20px' }}>
-                The research draws on direct experience designing and deploying AI systems within defence programmes, and seeks to develop frameworks for responsible AI integration where conventional assurance models are insufficient. Paxion is a technical demonstrator built to support this work.
+                Paxion is a technical demonstrator developed to support this research, built in partnership with the Ministry of Defence.
               </p>
+
+              <p className="about__subsection-title" style={{ fontSize: '0.78rem', marginBottom: '12px' }}>Supervisors</p>
+              <ul className="about__list" style={{ marginBottom: '20px' }}>
+                <li className="about__list-item">
+                  <span className="about__list-primary">Prof. Tyrone S. Pitsis</span>
+                  <span className="about__list-secondary">
+                    Professor of Strategic Projects, University of York · Expert in project-based organising, strategy and complexity · Former RAF ASTRA Expert Advisor
+                  </span>
+                </li>
+                <li className="about__list-item">
+                  <span className="about__list-primary">Prof. Philip Garnett</span>
+                  <span className="about__list-secondary">
+                    Professor, School for Business &amp; Society, University of York · Complexity theorist specialising in complex systems, AI applications, and organisational dynamics
+                  </span>
+                </li>
+              </ul>
+
               <a
                 href="https://paxion.appivate.mod.uk"
                 target="_blank"
