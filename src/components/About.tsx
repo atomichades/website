@@ -38,14 +38,9 @@ const publications = [
     title: 'Systematic Review of AI in Lethal Processes',
     venue: 'Taylor & Francis',
     year: '2025',
-    status: '',
+    status: 'Peer Review in Progress',
   },
-  {
-    title: 'A Wartime Pragmatic Model for AI Integration',
-    venue: 'Taylor & Francis',
-    year: '2026',
-    status: 'In Progress',
-  },
+ 
 ]
 
 const articles = [
@@ -53,6 +48,13 @@ const articles = [
     title: 'From Command to Code: How Military Levers of Power Shape Software Quality',
     venue: 'In preparation',
     year: '',
+    status: 'In Progress'
+  },
+   {
+    title: 'A Wartime Pragmatic Model for AI Integration',
+    venue: 'Taylor & Francis',
+    year: '2026',
+    status: 'In Progress',
   },
 ]
 
